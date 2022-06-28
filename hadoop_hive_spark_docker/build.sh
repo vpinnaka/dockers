@@ -16,13 +16,13 @@ docker build -f ./postgresql-hms/Dockerfile . -t sciencepal/hadoop_cluster:postg
 docker build -f ./hive/Dockerfile . -t sciencepal/hadoop_cluster:hive
 
 # Nifi
-docker build -f ./nifi/Dockerfile . -t sciencepal/hadoop_cluster:nifi
+#docker build -f ./nifi/Dockerfile . -t sciencepal/hadoop_cluster:nifi
 
 # Edge
-docker build -f ./edge/Dockerfile . -t sciencepal/hadoop_cluster:edge
+#docker build -f ./edge/Dockerfile . -t sciencepal/hadoop_cluster:edge
 
 # hue
-docker build -f ./hue/Dockerfile . -t sciencepal/hadoop_cluster:hue
+#docker build -f ./hue/Dockerfile . -t sciencepal/hadoop_cluster:hue
 
 # zeppelin
-docker build -f ./zeppelin/Dockerfile . -t sciencepal/hadoop_cluster:zeppelin
+#docker build -f ./zeppelin/Dockerfile . -t sciencepal/hadoop_cluster:zeppelin
